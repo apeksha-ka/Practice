@@ -1,0 +1,19 @@
+
+        h2 {
+            color: rgb(177, 234, 234);
+            font-family: verdana;
+            font-size:larger;
+        }
+        p {
+            color: rgb(159, 241, 241);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            border: 2px saddlebrown;
+            padding-left: 20px;
+            margin: 10px;
+            
+            
+            
+        }
+    
+

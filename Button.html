@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>button and iframes</title>
+    </head>
+    <style>
+     .testbtn {
+         background-color:lightpink;
+         color: black;
+        font-size: 15px;
+        padding: 12px;
+        border: cadetblue;
+        border-radius: 5px;
+        cursor: pointer;
+   }
+   </style>
+   <body>
+    <h1>Button</h1>
+    <p>Styled button:</p>
+    <button class="testbtn">Blue Button</button>
+    <hr>
+    <p>This is a basic HTML button. It can be clicked, but it will not do anything until you add an action to it</p>
+    <button>Click Me</button>
+    <button disabled>disabled button</button>
+    <hr>
+    <h1>Buttons in javascript</h1>
+    <p>The button uses the <code>onclick</code> attribute to run JavaScript. When you click the button, it shows an alert message</p>
+    <button onclick="alert('Hello!')">Cllick Me</button>
+    <hr>
+    <h2 style="text-align: center;">Button Types</h2>
+    <p>The submit button sends the form data to the server, and the reset button clears the form field try to type your first name and press Reset Form</p>
+    <form action ="#"  onsubmit="alert('Form submitted');">
+        first name = <input type="text" name="fname"><br><br>
+        <button type="Submit">submit</button>
+         <button type="Reset">reset</button>
+    </form>
+    <hr>
+
+    <h1 style="text-align:center ;">HTML Iframes</h1>
+    <h1>HTML Iframes</h1>
+    <iframe src="index.html" style="border:2px solid rgb(193, 193, 233); width: 600px; height: 600px;" title="wikipedia">
+        </iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">w3schools</a></p>
+    <p>When the target attribute of a link matches the name of an iframe, the link will open in the ifram</p>
+    
+    <hr>
+
+    <h1 style="text-align: center;"> HTMLJavascript</h1>
+    <h2>MY first javascript</h2>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display for date and time</button>
+
+    
+
+
+  </body>
+</html>
