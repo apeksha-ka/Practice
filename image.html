@@ -1,1 +1,68 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Map</title>
+    </head>
+    <body>
+        
+        <h1>Image Map</h1>
+        <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+        <img src="desk.jpg" alt="Travel essentials" usemap="#workmap" width="300" height="400">
+        <map name="workmap">
+            <area shape="rect"
+                  coords="20,40,120,200"
+                  alt="Passport"
+                  href="passport.html" onclick="myFunction()">
+            <area shape="circle"
+                  coords="200,100,40"
+                  alt="Sunglasses"
+                  href="sunglass.html">
+            <area shape="rect"
+                 coords="150,230,280,380"
+                 alt="Camera body"
+                 href="camerabody.html">
+        </map>
+        <script>
+            function myFunction() {
+                alert("You clicked the passport");
+            }
+        </script>
+        <hr>
+        <h1>Background image</h1>
+        <style>
+        body{
+            background-image: url(background.jpg);
+        }
+        </style>
+
+
+        
+        
+        <p>The second photo shows a minimal workspace setup.
+        It usually includes a clean desk with soft lighting.
+        Such images are good as background images because they don’t distract from text.
+        They are commonly used in web design layouts.
+        The second photo shows a minimal workspace environment.
+        It usually includes a clean desk surface with simple objects.
+        The lighting in the image is soft and balanced.
+        This helps reduce visual strain for the viewer.
+       The background is not crowded with too many items.
+       This makes the image suitable for professional use.
+      Such photos are often used in websites and portfolios.
+       They help keep the focus on the main content.
+      A minimal workspace creates a calm visual feeling.
+     It gives a sense of organization and clarity.
+     Designers prefer these images for background use.
+      They allow text to be placed clearly on top.
+    The colors in the image are usually neutral.
+     Neutral tones improve readability of text.
+     These images work well for blogs and landing pages.
+     They are also used in presentations.
+     A clean workspace image reflects productivity.
+     It suggests a modern and tidy lifestyle.
+     The photo avoids unnecessary distractions.
+      Overall, it supports clean and effective web design.</p>
+
+    </body>
+</html>
